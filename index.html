@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AMOL KUMAR</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="images/about-me.jpg" alt="About Me" class="about-img">
+            <p>Hello! I am a Amol Kumar, currently pursuing BCA from galgotias University and about to graduate by the year of 2026. This is my personal webpage Showcasing my education details, projects which I made so far and the skills I gained till now.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>College Name</strong> - Galgotias University (2023-2026)</li>
+                <li><strong>High School Name</strong> - Green Valley public school (2015-2020)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="images/project1.jpg" alt="Project 1" class="project-img">
+                    <h3>JAVA To-Do App</h3>
+                    <p>A Java To-Do application is a simple program designed to help users manage tasks and stay organized. It allows users to create, view, update, and delete tasks. Using Java, the application can store these tasks locally (e.g., in memory or a database) and display them in a user-friendly interface.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Project 2" class="project-img">
+                    <h3>DBMS LMS</h3>
+                    <p>A Database Management System (DBMS) for a Learning Management System (LMS) is a software framework that manages and organizes all the data related to students, courses, instructors, assignments, and grades within an educational platform.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Project 3" class="project-img">
+                    <h3>Stdudent Identity card maker</h3>
+                    <p>A Student Identity Card Maker in C++ is a simple program designed to generate and print student ID cards. The application allows users to input details such as the student’s name, roll number, department, course, photo, and other relevant information.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Programming Languages: HTML, CSS, JavaScript, Python</li>
+                <li>Web Development: React, Node.js, Express</li>
+                <li>Database Management: MySQL, MongoDB</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Info</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My Personal Webpage. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
